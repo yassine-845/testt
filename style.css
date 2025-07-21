@@ -7,7 +7,11 @@
    box-sizing: border-box;
    font-family: poppins, sans-serif;
 }
-
+body{
+   
+  width : 100vw;
+   height : 100vh;
+}
 header {
    background-color: #6900d1 ;
    display: flex;
@@ -56,7 +60,9 @@ section {
    min-height: 100vh;
    
 }
-
+#reg{
+   align-self: center;
+}
 
 .from-login {
 
@@ -80,7 +86,7 @@ section {
 
 }
 
-input {
+.inputs {
     display: block;
     width: 100%;
     padding: 12px;
@@ -181,10 +187,24 @@ body input {
 
 
 
+/* 
+checkbox section
+*/
 
+.checkbox{
+   margin : 00;
+   width: 1.5rem;
+   height: 1.5rem;
+   
+}
 
+form {
+   width : auto
+}
 
-
-
-
+label{
+  height : 5px;
+  top : 0px;
+   
+}
 

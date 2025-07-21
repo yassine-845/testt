@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register page</title>
+</head>
+<body>
+    <header>
+        <div class="logo">♠️Reg<span class="span">Log</span></div>
+      <div class="button">
+  <nav class="navigation">
+    <a href="log">Login</a> 
+    <form action="" style="display: flex; align-items: center; gap: 5px;">
+      <label for="dark-mode">dark-mod</label>
+      <input id="dark-mode" class="checkbox" type="checkbox" onclick="document.body.classList.toggle('dark-mod')">
+    </form>
+  </nav>       
+</div>
+
+        
+
+
+    </header>
+
+    <section class="from from-register" id="reg">
+        <div class="container">
+            <h2 id="reg">Register</h2>
+            
+                <input class="inputs" type="text" placeholder="🎭first name" required>
+                <input class="inputs" type="text" placeholder="🎲last name" required>
+                <input class="inputs" type="email" placeholder="📧Enter Email" required>
+                <input class="inputs" type="password" placeholder="🔒Password" required>
+                <input class="inputs" type="password" placeholder="🔒confirm password" required>
+                <!-- إزالة placeholder من الراديو لأنه لا يعمل مع هذا النوع -->
+        <form action="" style="margin-bottom: 9px;">
+  <div style="display: flex; align-items: center; gap: 12px;" >
+    <input class="checkbox" type="checkbox" id="remember">
+    <label for="remember" style="align-self:start;">Remember me</label>
+  </div>
+</form>
+            
+            <button class="btn">Register</button>
+        </div>
+    </section>
+
+
+</body>
+</html>
